@@ -1,0 +1,22 @@
+Package: phylosignal
+Type: Package
+Title: Calculates phylogenetical signal from phylogenetic trees and traits
+    matrix
+Version: 0.1.0
+Author: Angel Luis Robles-Fernandez <a.l.robles.ferandnez@gmail.com>
+Description: Package with a set of phylogenetical tools. Mainly calculates phylogenetical signal.
+Maintainer: Angel Robloes <a.l.robles.fernandez@gmail.com>
+Imports:
+    magrittr,
+    doParallel,
+    foreach,
+    parallel,
+    iterators,
+    OutbreakTools,
+    ape,
+    phytools,
+    stats
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
